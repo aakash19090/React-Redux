@@ -9,7 +9,7 @@ const App = () => {
         <>
             <div className="home">
                 {/* <UserList/> */}
-                <ClickCounter/>
+                <ClickCounter name="Akash"/>  {/* To pass props in HOCs pass them Directly */}
                 <HoverCounter/>
             </div>
         </>

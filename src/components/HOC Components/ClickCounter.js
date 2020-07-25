@@ -6,10 +6,13 @@ class ClickCounter extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.props.incrementCount}>Clicked {this.props.count} Times</button>                
+                <button 
+                    onClick={this.props.incrementCount}>
+                    {this.props.name} Clicked {this.props.count} Times
+                </button>                
             </div>
         )
     }
 }
 
-export default hocCounter(ClickCounter)
+export default hocCounter(ClickCounter,1)
