@@ -5,6 +5,7 @@ import store from './Redux/store'
 // import UserList from './components/Users/User'
 import CakeContainer from './components/ReduxDemo/CakeContainer'
 import IcecreamContainer from './components/ReduxDemo/IcecreamContainer'
+import DemoCakeContainer from './components/ReduxDemo/DemoCakeContainer'
 const App = () => {
 
     return(
@@ -14,6 +15,7 @@ const App = () => {
                     {/* <UserList/> */}
                     <CakeContainer/>
                     <IcecreamContainer />
+                    <DemoCakeContainer/>
                 </div>
             </>
         </Provider>
