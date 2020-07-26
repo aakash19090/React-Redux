@@ -14,7 +14,7 @@ class IcecreamContainer extends Component {
 
 const mapStateToProps = state => {
     return {
-        numOfIcecream : state.numOfIcecream
+        numOfIcecream : state.iceCream.numOfIcecream
     }
 }   
 
