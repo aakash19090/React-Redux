@@ -5,6 +5,7 @@ import store from './Redux/store'
 // import UserList from './components/Users/User'
 import CakeContainer from './components/ReduxDemo/CakeContainer'
 import IcecreamContainer from './components/ReduxDemo/IcecreamContainer'
+import AsyncUsers from './components/Users/AsyncUsers'
 const App = () => {
 
     return(
@@ -12,8 +13,9 @@ const App = () => {
             <>
                 <div className="home">
                     {/* <UserList/> */}
-                    <CakeContainer/>
-                    <IcecreamContainer />
+                    {/* <CakeContainer/> */}
+                    {/* <IcecreamContainer /> */}
+                    <AsyncUsers/>
                 </div>
             </>
         </Provider>
