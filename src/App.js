@@ -15,6 +15,7 @@ const App = () => {
                     {/* <UserList/> */}
                     <CakeContainer/>
                     <IcecreamContainer />
+                    <DemoCakeContainer cake/>
                     <DemoCakeContainer/>
                 </div>
             </>
