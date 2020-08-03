@@ -6,6 +6,9 @@ import store from './Redux/store'
 import CakeContainer from './components/ReduxDemo/CakeContainer'
 import IcecreamContainer from './components/ReduxDemo/IcecreamContainer'
 import AsyncUsers from './components/Users/AsyncUsers'
+import BasicForm from './components/ReduxForm/BasicForm'
+import LocalData from './components/Users/LocalData'
+
 const App = () => {
 
     return(
@@ -15,7 +18,9 @@ const App = () => {
                     {/* <UserList/> */}
                     {/* <CakeContainer/> */}
                     {/* <IcecreamContainer /> */}
-                    <AsyncUsers/>
+                    {/* <AsyncUsers/> */}
+                    {/* <BasicForm/> */}
+                    <LocalData/>
                 </div>
             </>
         </Provider>
